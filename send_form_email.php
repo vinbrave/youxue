@@ -1,6 +1,6 @@
 <?php
 // EDIT THE 2 LINES BELOW AS REQUIRED
-$send_email_to = "aidreams@sina.com";
+$send_email_to = "960068985@qq.com";
 $email_subject = "Your email subject line";
 function send_email($name,$email,$email_message)
 {
@@ -76,7 +76,7 @@ if($return_array['success'] == '1')
     var_dump(send_email($name,$email,$message));
 }
 header('Content-type: text/json');
-echo json_encode($return_array);
+//echo json_encode($return_array);
 die();
 ?>
 
